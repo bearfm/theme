@@ -1,0 +1,19 @@
+{
+  "name": "discord-theme",
+  "version": "0.0.1",
+  "description": "A Discord theme.",
+  "license": "GPL-3.0-or-later",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc && node main.js"
+  },
+  "keywords": [],
+  "author": "BearFM",
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "esbuild": "^0.20.1",
+    "esbuild-plugin-sass": "^1.0.1",
+    "typescript": "^5.4.2"
+  },
+  "type": "module"
+}
